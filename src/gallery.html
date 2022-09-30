@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <!--  Meta  -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tobi's Room</title>
+
+    <!--  Styles  -->
+    <link rel="stylesheet" href="../css/gallery.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <!-- <link href="http://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/poppins" rel="stylesheet"> -->
+    <link rel="stylesheet" href="../css/preloader.css">
+  </head>
+
+  <body>
+    <div class="loader-bg">
+      <div id="loader">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+    <header class="main-header">
+      <!-- /.container -->
+      <div class="container">
+        <nav class="navbar navbar-expand-lg main-nav px-0">
+          <a class="navbar-brand" href="../home.html">
+            <img src="../assets/logo.png" alt="tobis room">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation" onclick="toggleMenu();">
+            <label for="check">
+              <input type="checkbox" id="check"/>
+              <span class="icon-bar icon-bar-1"></span>
+              <span class="icon-bar icon-bar-2"></span>
+              <span class="icon-bar icon-bar-3"></span>
+
+            </label>
+            
+          </button>
+
+          <!-- 
+            
+            
+             -->
+
+          <div class="collapse navbar-collapse" id="mainMenu">
+            <ul class="navbar-nav ml-auto text-uppercase f1">
+              <li>
+                <a href="../home.html" class="active-first">Home</a>
+              </li>
+              <li>
+                <a href="bio.html">Bio</a>
+              </li>
+              <li>
+                <a href="gallery.html" class="active">Gallery</a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UCiwvRQlui7MiRBRoM7vxaQQ" target="_blank">Videos</a>
+              </li>
+              <!-- <li>
+                <a href="event.html">Upcoming Events</a>
+              </li> -->
+              <li>
+                <a href="../home.html#contact">contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!-- /.container -->
+    </header>
+
+
+    <!-- Main Sections -->
+    <main>
+
+      <section>
+
+        <div class="gallery container-fluid">
+
+          <div class="photos">
+            <div class="masonry" id="img-container">
+              <div class="mItem">
+                <a href="#" id="Image 1">
+                  <img src="../assets/gallery/1.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 2">
+                  <img src="../assets/gallery/2.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 3">
+                  <img src="../assets/gallery/3.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 4">
+                  <img src="../assets/gallery/4.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 5">
+                  <img src="../assets/gallery/5.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 6">
+                  <img src="../assets/gallery/6.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 7">
+                  <img src="../assets/gallery/7.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 8">
+                  <img src="../assets/gallery/8.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+              <div class="mItem">
+                <a href="#" id="Image 9">
+                  <img src="../assets/gallery/9.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 10">
+                  <img src="../assets/gallery/10.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 11">
+                  <img src="../assets/gallery/11.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 12">
+                  <img src="../assets/gallery/12.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 13">
+                  <img src="../assets/gallery/13.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 14">
+                  <img src="../assets/gallery/14.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 15">
+                  <img src="../assets/gallery/15.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 16">
+                  <img src="../assets/gallery/16.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+              <div class="mItem">
+                <a href="#" id="Image 17">
+                  <img src="../assets/gallery/17.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 18">
+                  <img src="../assets/gallery/18.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 19">
+                  <img src="../assets/gallery/19.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 20">
+                  <img src="../assets/gallery/20.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+              <div class="mItem">
+                <a href="#" id="Image 21">
+                  <img src="../assets/gallery/21.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 22">
+                  <img src="../assets/gallery/22.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 23">
+                  <img src="../assets/gallery/23.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 24">
+                  <img src="../assets/gallery/24.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+              <div class="mItem">
+                <a href="#" id="Image 25">
+                  <img src="../assets/gallery/25.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 26">
+                  <img src="../assets/gallery/26.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 27">
+                  <img src="../assets/gallery/27.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 28">
+                  <img src="../assets/gallery/28.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+              <div class="mItem">
+                <a href="#" id="Image 29">
+                  <img src="../assets/gallery/29.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 30">
+                  <img src="../assets/gallery/30.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 31">
+                  <img src="../assets/gallery/31.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 32">
+                  <img src="../assets/gallery/32.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+              <div class="mItem">
+                <a href="#" id="Image 33">
+                  <img src="../assets/gallery/33.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 34">
+                  <img src="../assets/gallery/34.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 35">
+                  <img src="../assets/gallery/35.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+            
+              <div class="mItem">
+                <a href="#" id="Image 36">
+                  <img src="../assets/gallery/36.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+              <div class="mItem">
+                <a href="#" id="Image 37">
+                  <img src="../assets/gallery/37.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+              <div class="mItem">
+                <a href="#" id="Image 38">
+                  <img src="../assets/gallery/38.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+              <div class="mItem">
+                <a href="#" id="Image 39">
+                  <img src="../assets/gallery/39.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+              <div class="mItem">
+                <a href="#" id="Image 40">
+                  <img src="../assets/gallery/40.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+              <div class="mItem">
+                <a href="#" id="Image 41">
+                  <img src="../assets/gallery/41.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+              <div class="mItem">
+                <a href="#" id="Image 42">
+                  <img src="../assets/gallery/42.jpg" class="thumbnail img-responsive">
+                </a>
+              </div>
+              <!--- Modal -->
+              <div id="myModal" class="modal fade .modal-dialog-centered " role="dialog"  tabindex="-1" aria-hidden="true" >
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <img class="img-responsive" src=""  id="imagepreview" />
+                      
+                    </div>
+                    <div class="modal-footer justify-content-around fixed">
+                      <button type="button" id="prev-btn" class="btn" >
+                        <i class="fas fa-less-than"></i>
+                      </button>
+                      <button type="button" class="btn grid-close" data-dismiss="modal">
+                        <i class="fas fa-th-large"></i>
+                      </button>
+                      <button type="button" id="next-btn" class="btn">
+                        <i class="fas fa-greater-than"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Modal-->
+            
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+    </main>
+
+
+
+    <footer>
+      <div class="footer my-5">
+        <div class="footer-details">
+          <div class="row social-links">
+            <a href="https://www.facebook.com/officialtobi1?_rdc=1&_rdr" target="_blank"><span class="iconify" data-icon="simple-line-icons:social-facebook"></span></a>
+            <a href="https://www.instagram.com/accounts/login/?next=/official_tobis_room/" target="_blank"><span class="iconify" data-icon="iconoir:instagram"></span></a>            
+            <a href="https://www.youtube.com/channel/UCiwvRQlui7MiRBRoM7vxaQQ" target="_blank"><span class="iconify" data-icon="ant-design:youtube-filled"></span></a>
+
+          </div>
+          <p>all rights reserved <span class="copyright">&#169</span> 2022</p>
+          <p>Tobisroom@2022</p>
+        </div>
+
+      </div>
+    </footer>
+
+    
+
+    
+    
+
+    <!-- Bootstrap core JavaScript
+      ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../js/example.js"></script>
+    <!-- Scripts -->
+    <script src="scripts/index.js"></script>
+    
+
+    <script type="text/javascript">
+      AOS.init();
+      window.onload = function() {
+        document.querySelector(".loader-bg").style.display = "none";
+      }
+
+      function toggleMenu(){
+        const menuToggle = document.querySelector('.menuToggle');
+        const navigations = document.querySelector('.navigations');
+        menuToggle.classList   .toggle('active');
+        navigations.classList   .toggle('active');
+      }
+
+      
+      $('.thumbnail').click(function(){
+        $('.modal-body').empty();
+        var title = $(this).parent('a').attr("id");
+        $('.modal-title').html(title);
+        $($(this).parents('div').html()).appendTo('.modal-body');
+        $('#myModal').modal({show:true});
+     });
+
+      $('#next-btn').click(function() {
+          var link = $('.modal-body a');
+          var number = parseInt(link.attr('id').match(/\S+$/));
+          number++;
+          if(number === 43) {
+              number = 1;
+          }
+          $('.modal-body').html($('#img-container').find('a[id="Image ' + number + '"]').parent('div').html());
+          $('.modal-title').text('Image ' + number);
+      });
+
+      $('#prev-btn').click(function() {
+          var link = $('.modal-body a');
+          var number = parseInt(link.attr('id').match(/\S+$/));
+          number--;
+          if(number === 0) {
+              number = 42;
+          }
+          $('.modal-body').html($('#img-container').find('a[id="Image ' + number + '"]').parent('div').html());
+          $('.modal-title').text('Image ' + number);
+      });
+
+
+    </script>
+
+  </body>
+
+</html>
